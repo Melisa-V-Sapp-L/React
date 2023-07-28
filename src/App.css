@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.container {
+    margin: 1% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#navflex {
+    width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#carouselExampleCaptions {
+    width: 40vw;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+img {
+    height: 80vh;
+    width: 40vw;
 }
 
-.App-link {
-  color: #61dafb;
+#bcard {
+    font-size: xx-large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#style1 {
+    position: absolute;
+    text-shadow: 1px 0px 0px black,
+        0px 1px 0px black,
+        -1px 0px 0px black,
+        0px -1px 0px black;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15% 0 0 5%;
+    width: 35vw;
+}
+
+#style2 {
+    position: absolute;
+    text-shadow: 1px 0px 0px whitesmoke,
+        0px 1px 0px whitesmoke,
+        -1px 0px 0px whitesmoke,
+        0px -1px 0px whitesmoke;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10% 0 0% 5%;
+    width: 35vw;
+}
+
+button {
+    margin: 2%;
 }
